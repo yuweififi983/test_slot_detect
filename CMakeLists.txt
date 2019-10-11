@@ -1,0 +1,8 @@
+cmake_minimum_required( VERSION 3.7 )
+add_definitions( -std=c++11 )
+project( detect )
+find_package( OpenCV REQUIRED NO_MODULE PATHS /usr/lib )
+include_directories( ${OpenCV_INCLUDE_DIRS} ./include)
+link_directories("./lib")
+add_executable( detect detect.cpp )
+target_link_libraries( detect ${OpenCV_LIBS} libslot_detect.so)
