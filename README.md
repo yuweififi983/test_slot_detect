@@ -1,4 +1,4 @@
-# test_lsd
+# test_slot_detect
 # CPPND: Capstone
 
 This is a repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
