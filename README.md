@@ -18,3 +18,4 @@ In this project, I finished to detect slot in pictures.
 1. Clone this repo.
 2. Compile: `cmake . && make`
 3. Run it: `./detect xxpath0  xxpath1'  path0 is picture path, path1 is model path 
+4. slot detect result saved in res file
